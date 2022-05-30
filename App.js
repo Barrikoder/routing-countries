@@ -4,7 +4,7 @@ import errorHandler from './middlewares/errorHandler.js';
 import countriesRouter from './routes/countriesRouter.js';
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use('/api/countries', countriesRouter);

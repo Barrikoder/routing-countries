@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import 'dotenv/config';
 
 try {
   const client = await mongoose.connect(process.env.MONGO_URI);
